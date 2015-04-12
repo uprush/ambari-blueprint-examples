@@ -1,0 +1,1 @@
+# ambari-aws-blueprints
