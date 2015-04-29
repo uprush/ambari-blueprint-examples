@@ -1,0 +1,15 @@
+
+{
+  "blueprint" : "sandbox",
+  "default_password" : "my-super-secret-password",
+  "host_groups" :[
+    {
+      "name" : "host_group_1", 
+      "hosts" : [         
+        {
+          "fqdn" : "c6401.ambari.apache.org"
+        }
+      ]
+    }
+  ]
+}
