@@ -1391,10 +1391,6 @@
         },
         "properties" : {
           "fs.defaultFS" : "hdfs://%HOSTGROUP::host_group_1%:8020",
-          "fs.s3.awsAccessKeyId" : "AKIAIIPLBOS47XUTWBBQ",
-          "fs.s3.awsSecretAccessKey" : "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",
-          "fs.s3n.awsAccessKeyId" : "AKIAIPTUKDNF6VW7AUGA",
-          "fs.s3n.awsSecretAccessKey" : "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",
           "fs.trash.interval" : "360",
           "ha.failover-controller.active-standby-elector.zk.op.retries" : "120",
           "hadoop.http.authentication.simple.anonymous.allowed" : "true",
