@@ -1,6 +1,6 @@
-# Ambari Blueprints for AWS
+# Ambari Blueprints Examples
 
-A few blueprints that make it really easy to walk through a wizard and launch HDP clusters into Amazon Web Services.
+A few blueprints that make it really easy to walk through a wizard and launch HDP clusters.
 
 ## List of Blueprints
 
