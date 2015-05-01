@@ -1345,8 +1345,6 @@
           "hbase.client.keyvalue.maxsize" : "10485760",
           "hbase.client.scanner.caching" : "100",
           "hbase.cluster.distributed" : "true",
-          "hbase.coprocessor.master.classes" : "com.xasecure.authorization.hbase.XaSecureAuthorizationCoprocessor",
-          "hbase.coprocessor.region.classes" : "com.xasecure.authorization.hbase.XaSecureAuthorizationCoprocessor",
           "hbase.defaults.for.version.skip" : "true",
           "hbase.hregion.majorcompaction" : "604800000",
           "hbase.hregion.majorcompaction.jitter" : "0.50",
