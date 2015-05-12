@@ -1,0 +1,67 @@
+
+{
+  "blueprint" : "streaming",
+  "default_password" : "my-super-secret-password",
+  "host_groups" :[
+    {
+      "name" : "host_group_master_1",
+      "hosts" : [
+        {
+          "fqdn" : "master1.ambari.apache.org"
+        }
+      ]
+    },
+    {
+      "name" : "host_group_master_2",
+      "hosts" : [
+        {
+          "fqdn" : "master2.ambari.apache.org"
+        }
+      ]
+    },
+    {
+      "name" : "host_group_master_3",
+      "hosts" : [
+        {
+          "fqdn" : "master3.ambari.apache.org"
+        }
+      ]
+    },
+    {
+      "name" : "host_group_slave_1",
+      "hosts" : [
+        {
+          "fqdn" : "slave1.ambari.apache.org"
+        },
+        {
+          "fqdn" : "slave2.ambari.apache.org"
+        },
+        {
+          "fqdn" : "slave3.ambari.apache.org"
+        }
+      ]
+    },
+    {
+      "name" : "host_group_slave_2",
+      "hosts" : [
+        {
+          "fqdn" : "slave4.ambari.apache.org"
+        },
+        {
+          "fqdn" : "slave5.ambari.apache.org"
+        },
+        {
+          "fqdn" : "slave6.ambari.apache.org"
+        }
+      ]
+    },
+    {
+      "name" : "host_group_client_1",
+      "hosts" : [
+        {
+          "fqdn" : "client1.ambari.apache.org"
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,9 @@
 # list blueprints
 # curl -H "X-Requested-By: ambari" -X GET -u admin:admin localhost:8080/api/v1/blueprints
 
+# list hosts
+# curl -H "X-Requested-By: ambari" -X GET -u admin:admin localhost:8080/api/v1/hosts
+
 # export blueprint
 # curl -H "X-Requested-By: ambari" -X GET -u admin:admin localhost:8080/api/v1/clusters/sandbox?format=blueprint
 
