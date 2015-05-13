@@ -11,4 +11,4 @@ A few blueprints that make it really easy to walk through a wizard and launch HD
 5. Spark Cluster - Deploys a std. 10 node cluster correctly configured with Spark on YARN on the cluster.
 
 ## Known Issues
-- Sandbox: HBase does not start because of security configuration files are not found under `/etc/hbase/conf`.
+- HA cluster is working in progress.
