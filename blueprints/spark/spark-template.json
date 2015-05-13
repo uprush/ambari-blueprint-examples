@@ -47,7 +47,7 @@
         },
         {
           "fqdn" : "slave6.ambari.apache.org"
-        },
+        }
       ]
     },
     {
