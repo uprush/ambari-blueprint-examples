@@ -1245,7 +1245,7 @@
           "yarn.resourcemanager.work-preserving-recovery.enabled" : "true",
           "yarn.resourcemanager.work-preserving-recovery.scheduling-wait-ms" : "10000",
           "yarn.resourcemanager.zk-acl" : "world:anyone:rwcda",
-          "yarn.resourcemanager.zk-address" : "yifeng-sc.cloud.hortonworks.com:2181",
+          "yarn.resourcemanager.zk-address" : "%HOSTGROUP::host_group_master_1%:2181,%HOSTGROUP::host_group_master_2%:2181,%HOSTGROUP::host_group_master_3%:2181",
           "yarn.resourcemanager.zk-num-retries" : "1000",
           "yarn.resourcemanager.zk-retry-interval-ms" : "1000",
           "yarn.resourcemanager.zk-state-store.parent-path" : "/rmstore",
