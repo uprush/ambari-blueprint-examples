@@ -1741,6 +1741,7 @@
     }
   ],
   "Blueprints" : {
+    "blueprint_name": "uprush-test",
     "stack_name" : "HDP",
     "stack_version" : "2.2"
   }
